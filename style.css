@@ -80,13 +80,6 @@ body {
   background-clip: text;
 }
 
-.hero-tagline {
-  font-size: 1rem;
-  color: var(--muted);
-  margin-bottom: 2.5rem;
-  line-height: 2;
-}
-
 .hero-links {
   display: flex;
   gap: 1rem;
