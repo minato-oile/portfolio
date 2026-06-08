@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minato — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-label">Full-Stack Web Engineer</p>
+      <h1 class="hero-name">Minato</h1>
+      <p class="hero-tagline">ひとり × PC × AI × エンタメ<br>で価値をつくる</p>
+      <div class="hero-links">
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://wantedly.com/" target="_blank">Wantedly</a>
+      </div>
+    </div>
+    <div class="hero-deco" aria-hidden="true">
+      <span class="deco-circle c1"></span>
+      <span class="deco-circle c2"></span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2 class="section-title">About</h2>
+      <p class="about-text">
+        情報系大学在学中（24歳）。基本情報技術者・簿記2級取得。<br>
+        フルスタックWebエンジニアを目指して独学中。<br>
+        将来はフリーランス・Side FIREを見据え、自分のプロダクトを育てていきたいと考えています。
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skill-grid">
+        <li class="skill-item s-tier">
+          <span class="skill-rank">S</span>
+          <div>
+            <strong>React / TypeScript</strong>
+            <span>メイン言語・フレームワーク</span>
+          </div>
+        </li>
+        <li class="skill-item s-tier">
+          <span class="skill-rank">S</span>
+          <div>
+            <strong>Next.js</strong>
+            <span>フルスタック開発</span>
+          </div>
+        </li>
+        <li class="skill-item a-tier">
+          <span class="skill-rank">A</span>
+          <div>
+            <strong>HTML / CSS</strong>
+            <span>マークアップ・スタイリング</span>
+          </div>
+        </li>
+        <li class="skill-item a-tier">
+          <span class="skill-rank">A</span>
+          <div>
+            <strong>Node.js / PostgreSQL</strong>
+            <span>バックエンド・DB</span>
+          </div>
+        </li>
+        <li class="skill-item b-tier">
+          <span class="skill-rank">B</span>
+          <div>
+            <strong>Python / SQL</strong>
+            <span>データ処理・分析</span>
+          </div>
+        </li>
+        <li class="skill-item b-tier">
+          <span class="skill-rank">B</span>
+          <div>
+            <strong>Anthropic API</strong>
+            <span>AIプロダクト統合</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-list">
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>執筆蔵</h3>
+            <span class="project-badge">Deployed</span>
+          </div>
+          <p>ライトノベル作家向けの執筆支援ツール。Vercelにデプロイ済み。Anthropic APIを活用したAI機能を搭載。</p>
+          <div class="project-tags">
+            <span>Next.js</span><span>TypeScript</span><span>Anthropic API</span><span>Vercel</span>
+          </div>
+          <a class="project-link" href="https://lightnovel-writer.vercel.app" target="_blank">サイトを見る →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Game Diary Generator</h3>
+            <span class="project-badge">Deployed</span>
+          </div>
+          <p>ゲームのプレイメモを日記形式に変換するツール。Anthropic APIを使用したスタンドアロンHTML。</p>
+          <div class="project-tags">
+            <span>HTML</span><span>JavaScript</span><span>Anthropic API</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Portfolio (This Site)</h3>
+            <span class="project-badge">GitHub Pages</span>
+          </div>
+          <p>自己紹介ポートフォリオ。HTML/CSSで制作し、GitHub Pagesで公開。</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>GitHub Pages</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="cert">
+      <h2 class="section-title">Certifications</h2>
+      <ul class="cert-list">
+        <li>基本情報技術者試験</li>
+        <li>日商簿記検定 2級</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Minato — Built with HTML/CSS & GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
