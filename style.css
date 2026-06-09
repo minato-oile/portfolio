@@ -1,6 +1,7 @@
 /* ===========================
    RESET & BASE
 =========================== */
+/*class+::before+::afterで全ての要素と疑似要素に適用*/
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -8,6 +9,7 @@
 }
 
 :root {
+  /* カラーパレット */
   --bg: #0a0a0f;
   --surface: #13131a;
   --border: #2a2a3a;
@@ -52,6 +54,7 @@ body {
 
 .hero-inner {
   position: relative;
+  /*z-indexを1に設定することで、装飾用の円がテキストの背後に表示されるようになる*/
   z-index: 1;
   max-width: 680px;
   margin: 0 auto;
@@ -69,6 +72,7 @@ body {
 
 .hero-name {
   font-family: var(--font-display);
+  /*clamp(最小値, 推奨値, 最大値)でレスポンシブなフォントサイズを指定*/
   font-size: clamp(3.5rem, 12vw, 7rem);
   font-weight: 800;
   line-height: 1;
@@ -94,6 +98,7 @@ body {
   font-family: var(--font-display);
   font-size: 0.85rem;
   letter-spacing: 0.05em;
+  /*border-color、background、colorの変化に対して0.2秒のトランジションを設定*/
   transition: border-color 0.2s, background 0.2s, color 0.2s;
 }
 
