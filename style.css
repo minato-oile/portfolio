@@ -171,6 +171,12 @@ body {
 /* ===========================
    SKILLS
 =========================== */
+.skill-note {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
 .skill-grid {
   list-style: none;
   display: flex;
